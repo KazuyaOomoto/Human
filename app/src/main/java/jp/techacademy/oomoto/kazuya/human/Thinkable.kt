@@ -1,5 +1,5 @@
 package jp.techacademy.oomoto.kazuya.human
 
-interface Thikable {
+interface Thinkable {
     fun think()
 }
