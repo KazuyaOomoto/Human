@@ -2,7 +2,7 @@ package jp.techacademy.oomoto.kazuya.human
 
 import android.util.Log
 
-class Human : Animal, Thikable{
+class Human : Animal, Thinkable{
     //プロパティ
     var hobby: String
 
@@ -15,7 +15,7 @@ class Human : Animal, Thikable{
     override fun say(){
         Log.d("kotlintest", "私の名前は" + this.name + "です。" + "年は" + this.age + "歳です。")
     }
-
+    //Thinkableインターフェースをオーバーライド
     override fun think(){
         Log.d("kotlintest", "私は" + this.hobby + "について考える。")
     }
